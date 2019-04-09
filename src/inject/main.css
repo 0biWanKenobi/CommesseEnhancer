@@ -1,0 +1,40 @@
+/* .table .TDstatino_feriali, .table .TDstatino_feriali, .table .TDstatino_fest, .table .TDintestazioneleft, .table .hiderow {
+    padding: 1px;
+} */
+
+.table {
+    opacity: 0;
+}
+
+.tbl {
+    opacity: 0;
+	border: none;
+    padding: 1;
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+
+.tbl.visible{    
+        opacity: 1;
+        transition: opacity .50s ease-in-out;
+        -moz-transition: opacity .50s ease-in-out;
+        -webkit-transition: opacity .50s ease-in-out;     
+}
+
+#modalSetWorkingHours .modal-dialog, #modalSetWorkingHours .modal-content{
+    width: 440px;
+}
+
+#modalSetWorkingHours .modal-content{
+    position: relative;
+}
+
+
+#iframeSetWorkingHours {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.hiderow {
+    width: 5%;
+}

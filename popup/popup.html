@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/src/popup/popup.css"/>
+    <title>Account Setup</title>
+</head>
+<body>
+
+    <div id="userAccount-wrap" class="wrap-contact2"></div>
+
+    <script id="userAccount-form" type="htmlscript/container">
+        <form id="userAccount" class="contact2-form validate-form">
+        
+            <div class="wrap-input2 validate-input" data-validate="Name is required">
+                <input class="input2" type="text" id="userName" name="user" value=""/>
+                <span class="focus-input2" data-placeholder="USER"></span>
+            </div>  
+            
+            <div class="wrap-input2 validate-input" data-validate="Password is required">
+                <input class="input2" type="password" id="password" name="password" value=""/>
+                <span class="focus-input2" data-placeholder="PASSWORD"></span>
+            </div>                   
+            
+            <div class="container-contact2-form-btn">
+                <div class="wrap-contact2-form-btn">
+                    <div class="contact2-form-bgbtn"></div>
+                    <button type="button" id="saveAccount" class="contact2-form-btn">
+                        Save
+                    </button>
+                </div>
+            </div>
+        </form>
+    </script>
+
+    <!-- PAGE SCRIPTS -->
+    <script src="/vendor/jquery/jquery-2.2.4.min.js"></script>
+    <script src="/src/common.js"></script>
+    <script src="/src/popup/popup.js"></script>
+
+</body>
+</html>

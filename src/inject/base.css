@@ -1,0 +1,809 @@
+
+body {
+    font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+    font-size:11px;
+    background:#FFF url(http://commesse.dp2000.it/Commesse/img/bg_pagina_interna.gif) top  repeat-x ;
+    margin-bottom:0;
+    margin-left:0;
+    margin-right:0;
+    margin-top:0;
+    padding-bottom:0;
+    padding-left:0;
+    padding-right:0;
+    padding-top:0;
+    }
+    
+        
+    A {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;       
+        color: #ce3133;
+    }
+    A:Hover span{
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        font-weight: bold;
+        color: #FFDA46;
+        text-decoration: none;
+    }
+    a:hover title {
+        display:block;
+        position: absolute;
+        top: 1.5em;
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-weight: bold;
+        z-index: 1;
+    }
+    
+    .button_{
+        width: 125px;
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        color: #000000;
+        height:25px;
+        vertical-align:middle;
+    }
+    .buttonlong_{
+        width: 250px;
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        color: #000000;
+        height:25px;
+        vertical-align:middle;
+    }
+    .button_1{
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        background:transparent url(http://commesse.dp2000.it/img/bg-button.png);
+        width:125px;
+        font-size: 11px;
+        text-align:left;
+        color:#676763;
+        height:25px;
+        vertical-align:middle;
+        border:0px;
+    
+    }
+    .button_2{
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        background:transparent url(http://commesse.dp2000.it/img/bg-button_2.png);
+        width:150px;
+        font-size: 11px;
+        text-align:left;
+        color:#676763;
+        height:25px;
+        vertical-align:middle;
+        border:0px;
+    
+    }
+    .button_1:hover{
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        background:transparent url(http://commesse.dp2000.it/img/bg-button.png);
+        width:125px;
+        font-size: 11px;
+        text-align:left;
+        color: #000;
+        height:25px;
+        vertical-align:middle;
+        border:0px;
+    
+    }
+    
+    
+    .button_longer{
+        width: 150px;
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        color: #000000;
+        height:25px;
+        vertical-align:middle;
+    }
+    
+    .button_picc {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        color: #000000;
+        background-color: #F6F6F3;
+        width: 28px;
+        height: 18px;
+    }
+    .select {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        color: #000000;
+        /*background-color: #F6F6F3;*/
+        background-color:#FFFFFF;
+        width: 250px;
+    }	
+    
+    .select_gest_rimborsi {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        color: #000000;
+        /*background-color: #F6F6F3;*/
+        background-color:#FFFFFF;
+        width: 253px;
+    }	
+    .select_long {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        color: #000000;
+        /*background-color: #F6F6F3;*/
+        background-color:#FFFFFF;
+        width: 300px;
+    }
+    
+    .select_picc {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        color: #000000;
+        background-color: #FFFFFF;
+        width: 60px;
+    }
+    .select_mese {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        color: #000000;
+        background-color: #FFFFFF;
+        width: 80px;
+    }
+    
+    .select_small{
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        color: #000000;
+        background-color: #FFFFFF;
+        width: 120px;
+    
+    }
+    .select_form_agg_comm {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        color: #000000;
+        /*background-color: #F6F6F3;*/
+        background-color:#FFFFFF;
+        width: 250px;
+    }
+    
+    
+    .input {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        color: #000000;
+        background-color: #FFFFFF;
+        width: 246px;
+        
+        
+    }
+    
+    .input_3 {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        color: #000000;
+        background-color: #FFFFFF;
+        width: 460px;
+        text-align:center;
+        
+        
+    }
+    
+    .input_mail {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        color: #000000;
+        background-color: #FFFFFF;
+        width: 182px;
+        text-align:left;
+        
+        
+    }
+    
+    .input_descrizione {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        color: #000000;
+        background-color: #FFFFFF;
+        width: 360px;
+    }
+    .input_descrizione_1 {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        color: #000000;
+        background-color: #FFFFFF;
+        width: 730px;
+    }
+    
+    .input_descrizione_2 {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        color: #000000;
+        background-color: #FFFFFF;
+        width: 780px;
+    }
+    
+    .input_descrizione_3 {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        color: #000000;
+        background-color: #FFFFFF;
+        width: 755px;
+    }
+    .input_mesa {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        color: #000000;
+        background-color: #FFFFFF;
+        width:60px;
+    }
+    .input_anno {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        color: #000000;
+        background-color: #FFFFFF;
+        width:35px;
+    }
+    
+    .input_creautente{
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        color: #000000;
+        background-color: #FFFFFF;
+        width:130px;
+    }
+    
+    .input_cell{
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        color: #000000;
+        background-color: #FFFFFF;
+        width:195px;
+    }
+    
+    .text {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        color: #000000;
+        background-color: #ffffff;
+        width: 250px;
+        height:100px;
+        
+    }
+    
+    .TDintestazione {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        /*line-height: 18px;*/
+        font-weight: bold;
+        color: #fff;
+        text-align:left;
+        background:transparent url(http://commesse.dp2000.it/Commesse/img/center_intestazione_form.png);
+        /*text-indent: 2px;*/
+        height: 25px;
+    
+    }
+        
+    .TDintestazione_	{
+    font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        /*line-height: 18px;*/
+        font-weight: bold;
+        color: #fff;
+        text-align:left;
+        background:transparent url(http://commesse.dp2000.it/Commesse/img/table-header.png);
+        /*text-indent: 2px;*/
+        height: 25px;
+        width: 3%;
+    }
+    
+    .TDintestazioneleft {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        line-height: 18px;
+        font-weight: bold;
+        color: #626161;
+        text-align: left;
+        background-color: #F6F6F3;
+        text-indent: 2px;
+    }
+    .TDintestbottom {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        line-height: 18px;
+        font-weight: bold;
+        color: #626161;
+        text-align: left;
+        background-color: #e6e6e6;
+        text-indent: 2px;
+        
+    }
+    
+    .TDintestbottom_D {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        line-height: 18px;
+        font-style: italic;
+        color: #A0A0A0;
+        text-align: left;
+        background-color: #e6e6e6;
+        text-indent: 2px;
+        
+    }
+    
+    .TDstatino_giorni_D {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        color: #626161;
+        background-color: #e6e6e6;
+        text-align: center;
+        line-height: 16px;
+    }
+    
+    .TDintestbottomright {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        line-height: 18px;
+        font-weight: bold;
+        color: #626161;
+        text-align: left;
+        background-color: #e6e6e6;
+        text-indent: 2px;
+        }
+        
+    .TDintestbottomright_D {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        line-height: 18px;
+        font-weight: bold;
+        color: #A0A0A0;
+        text-align: left;
+        background-color: #e6e6e6;
+        text-indent: 2px;
+        }
+        
+        
+    .MyTable {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        line-height: 16px;
+        text-indent: 3px;
+        color: #333;
+        background-color:#dcdcdc;
+        border: 2px solid #014181;
+    
+    }
+    .MyTr {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        line-height: 16px; 
+        text-indent: 3px;
+        color: #333;
+        background-color:#f2f2f2;
+        border: 1px solid black;
+    }
+    .TDtesto {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        line-height: 16px;
+        text-indent: 5px;
+        color:#000;
+        height:25px;
+        vertical-align:middle;
+        width:200px;
+        text-align:left;
+    }
+    .TDtesto_large {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        line-height: 16px;
+        text-indent: 5px;
+        color:#000;
+        height:25px;
+        vertical-align:middle;
+        width:300px;
+        text-align:left;
+    }
+    
+    .TDtesto_large_select {
+        width:150px;
+        text-align:left;
+    }
+    .TDtesto_select {
+        width:250px;
+        text-align:left;
+        font-size: 11px;
+        
+    }
+    
+    
+    .TDtesto_select_mese {
+        width:30px;
+        text-align:left;
+        font-size: 11px;
+        
+    }
+    .TDtesto_report_user {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        line-height: 16px;
+        text-indent: 5px;
+        color:#000;
+        height:25px;
+        vertical-align:middle;
+        width:120px;
+        text-align:left;
+    }
+    
+    
+    .Tdtesto_tot_parz{
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        /*background-color:#FFFFFF;*/
+        font-size:11px;
+        color:#000;
+        vertical-align:middle;
+        text-align:left;
+        font-weight: bold;
+        
+    }
+    
+    
+    .Tdtesto_tot{
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        color:#000;
+        background-color:#ffffff;
+        vertical-align:middle;
+        text-align:left;
+        font-weight: bold;
+    /*	border-top: 1px solid #aeaeae;*/
+        
+    }
+    
+    .TDtesto_report_user_select {
+        width:250px;
+        text-align:left;
+    }
+    .TDtesto_tab {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        line-height: 16px;
+        text-indent: 3px;
+        background-color:#f2f2f2;
+        vertical-align:bottom;
+        border: 2px solid #F6F6F3;
+    }
+    
+    .TDintestazioneReport {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        line-height: 18px;
+        font-weight: bold;
+        color: #001660;
+        text-align: center;
+        background-color: #aeaeae;
+        text-indent: 2px;
+    }
+    
+    .TDstatino_fest {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        line-height: 18px;
+        font-weight: bold;
+        color: #ffffff;
+        text-align: center;
+        background-color: #aeaeae;
+        text-indent: 2px;
+        width: 18px;
+    
+    }
+    
+    
+    .TDstatino_fest_1 {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        line-height: 18px;
+        font-weight: bold;
+        color: #aeaeae;
+        text-align: center;
+        background-color: #aeaeae;
+        text-indent: 2px;
+        width: 18px;
+    
+    }
+    .TDstatino_feriali {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        font-weight: bold;
+        color: #626161;
+        background-color: #ffffff;
+        text-align: center;
+        line-height: 18px;
+        width: 18px;
+    
+    }
+    
+    
+    .TDstatino_feriali_A {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        font-weight: bold;
+        color: #626161;
+        background-color: #89d842;
+        text-align: center;
+        line-height: 18px;
+        width: 18px;
+    
+    }
+    
+    .TDstatino_feriali_N {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        font-weight: bold;
+        color: #626161;
+        background-color: #d92571;
+        text-align: center;
+        line-height: 18px;
+        width: 18px;
+    
+    }
+    
+    .TDstatino_giorni, .TDstatino_fest {
+        width: 3%;
+    }
+    
+    .TDstatino_giorni {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;        
+        color: #626161;
+        background-color: #ffffff;
+        text-align: center;
+        line-height: 16px;
+    }
+    
+    .TDstatino_giorni_A {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        color: #ffffff;
+        background-color: #014181;
+        text-align: center;
+        line-height: 16px;
+    }
+    
+    .TDstatino_giorni_N {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        color: #ffffff;
+        background-color: #ce3133;
+        text-align: center;
+        line-height: 16px;
+    }
+    
+    
+    .TDstatino_giorni_R {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        color: #ffffff;
+        background-color: #000000;
+        text-align: center;
+        line-height: 16px;
+    }
+    
+    .table {
+        border: 0;
+        padding: 1;
+        
+    }
+    .div {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        color:#000000;
+        background-color: #F6F6F3;
+        width: 100%;
+        border:1px solid #046AB7;
+        
+    }
+    
+    .TableContainer{
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        line-height: 16px;
+        text-indent: 3px;
+        color: #333;
+        background-color:#f2f2f2;
+        border: 1px  solid #aeaeae;
+        width:935px;
+    }
+    
+    .TableContainerlong{
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        line-height: 16px;
+        text-indent: 3px;
+        color: #333;
+        padding:8px;
+        background-color:#f2f2f2;
+        border: 1px  solid #aeaeae;
+        width:935px;
+    }
+    
+    .TableContainerlong_b{
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        line-height: 16px;
+        text-indent: 3px;
+        color: #333;
+        padding-bottom: 8px;
+        background-color:#f2f2f2;
+        border: 1px  solid #aeaeae;
+        width:935px;
+    }
+    
+    
+    
+    
+    .TableContainer_title{
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        line-height: 16px;
+        text-indent: 3px;
+        color: #333;
+        background-color:#f2f2f2;
+        width:940px;
+    }
+    
+    .input_form_td{
+     vertical-align:bottom;
+     height:30px;
+    }
+    .MyDiv{
+        color: #333;
+        background-color:#fefefe;
+        margin-bottom: 11px;
+    }
+    
+    #footer {
+        font-family: Verdana,Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        color:#FFFFFF;
+        /*color: #014181;*/
+        font-weight: bold;
+        background-color:#ce3133;
+        border: 1px solid #aeaeae;
+    
+    }
+    
+    .option{
+    font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px; 
+    color: #000;
+    font-weight: bold;
+    text-align:center;
+     
+    }
+    
+    .Note {
+    font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+    font-size: 9px; 
+    color: #000;
+    vertical-align: bottom;
+    height:9px;
+    }
+    
+    
+    .Note_2 {
+    font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px; 
+    color: #000;
+    vertical-align: bottom;
+    height:10px;
+    }
+    .loading{
+    font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    color: #000000;
+    font-weight: bold;
+    z-index:1000;
+    height:15px;
+    text-align:left;
+    width:70px;
+    }
+    
+    .Container_menu{
+    width:950px;
+    height:50px;
+    background: transparent url(http://commesse.dp2000.it/Commesse/img/bg_menu.png);
+    
+    }
+    
+    .Container{
+    width:950px;
+    background-color:#eaeaea;
+    }
+    
+    .div_dinamico{
+    background-color:#FF0000;
+    font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+    font-size: 8px; 
+    color: #000;
+    
+    }
+    
+    .TableContainer_window{
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        line-height: 16px;
+        text-indent: 3px;
+        color: #333;
+        background-color:#f2f2f2;
+        border: 1px  solid #aeaeae;
+        width:850px;
+    }
+    .TDtesto_window {
+        font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+        font-size: 11px;
+        line-height: 16px;
+        text-indent: 5px;
+        color:#000;
+        height:25px;
+        vertical-align:middle;
+        width:150px;
+        text-align:left;
+    }
+    
+    .TDtesto_window_select {
+        width:250px;
+        text-align:left;
+    }
+    
+    .logout {
+    font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    color:#000;
+    width:400px;
+    height:247px;
+    top:100px;
+    position:relative;
+    margin:auto;
+    background:url(http://commesse.dp2000.it/img/logout_img_1.png);
+    }
+    
+    /*logout*/
+    .sub_log1{
+    font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    color:#000;
+    width:300px;
+    height:100px;
+    margin:left;
+    margin-left:1px;    
+    }
+    .sub_log2{
+    font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    color:#000;
+    width:300px;
+    height:100px;
+    margin:left;
+    margin-left:1px;
+    background:transparent;    
+    }
+    
+    .sub_log3{
+    width:300px;
+    height:40px;
+    margin:left;
+    margin-left:1px;
+    text-align:right;
+    }
+    
+    .table_form_logout{
+    font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    text-align:center;
+    text-indent:10px;
+    
+    }
+    
+    .tr_blanck{
+    height:5px;
+    
+    }
+    
